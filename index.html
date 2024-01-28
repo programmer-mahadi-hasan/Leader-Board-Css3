@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/59fbad568a.js" crossorigin="anonymous"></script>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles/leader-board.css">
 </head>
@@ -12,10 +14,24 @@
 <body>
     <!-- header start -->
     <header>
-
+        <div class="navigation">
+            <div class="logo">
+                <i class="fa-regular fa-lightbulb"></i>
+                <span class="logo-title">IDEA</span>
+            </div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Works</li>
+                    <li><img src="images/icons/profile.png" alt=""></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!-- header end -->
     <main>
+
         <section class="container">
             <div class="top-players">
                 <h2 class="section-title">Top Players</h2>
@@ -47,6 +63,123 @@
                 </div>
             </div>
             <hr>
+            <div class="top-blogs">
+                <h2 class="section-title">Top Blogs</h2>
+                <div class="blogs">
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-1.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">13 of My FavoriteUI/UX Goodies</h3>
+                            <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-2.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">UI cheat sheet: list vs grids</h3>
+                            <p class="blog-author">By <a href="">Tess Gadd</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-3.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">7 typography tips for interface design</h3>
+                            <p class="blog-author">By <a href="">Jeremiah Lam</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-4.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">Your logo is copied</h3>
+                            <p class="blog-author">By <a href="">Ferdinand Vogler</a></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- latest Courses -->
+        <section class="container">
+            <h2 class="section-title">Latest Courses</h2>
+            <div class="courses">
+                <div class="course">
+                    <div class="course-thumbnail">
+                        <img src="images/courses/course-1.png" alt="">
+                    </div>
+                    <div class="course-details">
+                        <h3 class="course-title">React-The Complete Guide 2024</h3>
+                        <p class="course-author">Reed Krakoff.</p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="fa-regular fa-clock"></i>
+                                01:30hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-thumbnail">
+                        <img src="images/courses/course-2.png" alt="">
+                    </div>
+                    <div class="course-details">
+                        <h3 class="course-title">React-The Complete Guide 2024</h3>
+                        <p class="course-author">Reed Krakoff.</p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="fa-regular fa-clock"></i>
+                                01:30hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-thumbnail">
+                        <img src="images/courses/course-3.png" alt="">
+                    </div>
+                    <div class="course-details">
+                        <h3 class="course-title">React-The Complete Guide 2024</h3>
+                        <p class="course-author">Reed Krakoff.</p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star fill"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="fa-regular fa-clock"></i>
+                                01:30hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
